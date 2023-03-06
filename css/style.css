@@ -1,0 +1,58 @@
+* {
+    padding: 5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    color: white;
+}
+
+p {
+    opacity: 75%;
+}
+
+body {
+    font-family: "Rubik";
+    background-color: black;
+}
+
+#center {
+    margin: auto;
+    text-align: center;
+}
+
+#justify {
+    text-align: justify;
+    width: 75%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+#ib {
+    display: inline-block;
+}
+
+.header {
+    background-color: #202225;
+    padding: 25px;
+}
+
+
+.header img {
+    display: block;
+    width: 250px;
+    border-radius: 100%;
+}
+
+.fb-page {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
