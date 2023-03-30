@@ -4,11 +4,19 @@
     <title>Vesa Kekonen (106)</title>
     <link rel="stylesheet" href="/css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <script src="js/jquery.js"></script>
 </head>
 
 <body>
+
+    <div class="countdown">
+        <h3>AIKAA ÄÄNESTÄÄ</h3>
+        <h1 id="laskuri"><b></b></h1>
+        <script src="js/counter.js"></script>
+    </div>
+
     <!--header-->
-    <div class="header" style="width:75%; margin:auto;">
+    <div class="header" style="width:75%; margin:auto; margin-top:125px;">
         <img src="/img/vesa.jpg" id="center">
         <h1 id="center"><b><a style="color:rgb(255, 99, 35);"
                     href="https://www.facebook.com/profile.php?id=100090096304857">Vesa Kekonen</a></b></h1>
@@ -16,13 +24,19 @@
         <h2 id="center">Äänestysnumero 106</h2>
     </div>
 
+
+
     <div class="row">
         <h1 id="center"><b>Tietoja minusta</b></h1>
 
         <p id="justify">
-            Työskentelen Lapin hyvinvointialueella lähihoitajana ja olen erikoistunut sekä mielenterveys- ja päihdetyöhön, että vammaistyöhön. Minulla on noin 14 vuoden työkokemus hoitoalalta. Olen työskennellyt monipuolisesti mm. matkailu- ja kaivosalalla sekä maataloustöissä.
-<br><br>
-            Asun perheeni kanssa noin kymmenen kilometrin päässä Ranuan keskustasta maaseudun rauhassa. Perheeseen kuuluu vaimoni ja minun lisäksi neljä lasta joista yksi on sijaislapsi. Vapaa-aikani kuluu pääsääntöisesti perheeni kanssa ja syksyisin metsällä esimerkiksi hirvenpyynnissä.
+            Työskentelen Lapin hyvinvointialueella lähihoitajana ja olen erikoistunut sekä mielenterveys- ja
+            päihdetyöhön, että vammaistyöhön. Minulla on noin 14 vuoden työkokemus hoitoalalta. Olen työskennellyt
+            monipuolisesti mm. matkailu- ja kaivosalalla sekä maataloustöissä.
+            <br><br>
+            Asun perheeni kanssa noin kymmenen kilometrin päässä Ranuan keskustasta maaseudun rauhassa. Perheeseen
+            kuuluu vaimoni ja minun lisäksi neljä lasta joista yksi on sijaislapsi. Vapaa-aikani kuluu pääsääntöisesti
+            perheeni kanssa ja syksyisin metsällä esimerkiksi hirvenpyynnissä.
         </p>
 
     </div>
@@ -30,20 +44,46 @@
         <h1 id="center"><b>Minun politiikkani</b></h1>
 
         <p id="justify">
-            Olen aina ollut kiinnostunut yhteiskunnallisista asioista, mutta aikaisemmin en ole lähtenyt mukaan vaikuttamaan, sillä en ole löytänyt omiin aatteisiini sopivaa puoluetta. Perinteisten puolueiden arvomaailma ei tue omia periaatteitani ja sen vuoksi olenkin löytänyt kodin sitoutumattomista. Olen myös Ranuan kirkkoneuvoston varajäsen sekä TEHY:n Ranua ammattiosaston hallituksen jäsen sekä Tehy Ry:n Lapin hyvinvointialueen varaluottamusmies. Lisäksi toimin aktiivisesti lasten ja nuorten parissa 4H-yhdistyksen kautta, jonka hallituksessa olen myös.
+            Olen aina ollut kiinnostunut yhteiskunnallisista asioista, mutta aikaisemmin en ole lähtenyt mukaan
+            vaikuttamaan, sillä en ole löytänyt omiin aatteisiini sopivaa puoluetta. Perinteisten puolueiden arvomaailma
+            ei tue omia periaatteitani ja sen vuoksi olenkin löytänyt kodin sitoutumattomista. Olen myös Ranuan
+            kirkkoneuvoston varajäsen sekä TEHY:n Ranua ammattiosaston hallituksen jäsen sekä Tehy Ry:n Lapin
+            hyvinvointialueen varaluottamusmies. Lisäksi toimin aktiivisesti lasten ja nuorten parissa 4H-yhdistyksen
+            kautta, jonka hallituksessa olen myös.
             <br><br>
-            Sitoutumattomuus on ollut yksi selkeä syy lähteä mukaan kansanedustajaehdokkaaksi. Sitoutumattomuus antaa kaikille ihmisille mahdollisuuden saada oma äänensä kuuluviin. Sitoutumattomien keskuudessa näkemyksiä tulee laajemmin kuin puolueilla, eivätkä ajatuksiaan saa läpi vain ne äänekkäimmät tai kokeneimmat. Toimintamme on avoimempaa, keskustelevampaa ja vapaampaa.
+            Sitoutumattomuus on ollut yksi selkeä syy lähteä mukaan kansanedustajaehdokkaaksi. Sitoutumattomuus antaa
+            kaikille ihmisille mahdollisuuden saada oma äänensä kuuluviin. Sitoutumattomien keskuudessa näkemyksiä tulee
+            laajemmin kuin puolueilla, eivätkä ajatuksiaan saa läpi vain ne äänekkäimmät tai kokeneimmat. Toimintamme on
+            avoimempaa, keskustelevampaa ja vapaampaa.
             <br><br>
-            Miksi päätin lähteä ehdolle ja millaiset edunvalvonta asiat näen Lapin ja lappilaisten kannalta tärkeimpinä tulevaisuudessa?
+            Miksi päätin lähteä ehdolle ja millaiset edunvalvonta asiat näen Lapin ja lappilaisten kannalta tärkeimpinä
+            tulevaisuudessa?
             <br><br>
-            Minulla on ollut aina palava halu tehdä työtä yhteiskunnan eteen. Viime vuosina olen kokenut, että suomalaisten ja  oma tyytymättömyyteni hallituksen päätöksiin on kasvanut. Suomalaisten asema on mielestäni huonontunut valtavasti viime vuosina, ja erityisesti pienituloiset sekä maatilalliset ovat hirveässä pinteessä. Korona toi omat haasteensa ja tämän hetkinen taloustilanne pahentaa yksilön asemaa koko ajan.
+            Minulla on ollut aina palava halu tehdä työtä yhteiskunnan eteen. Viime vuosina olen kokenut, että
+            suomalaisten ja oma tyytymättömyyteni hallituksen päätöksiin on kasvanut. Suomalaisten asema on mielestäni
+            huonontunut valtavasti viime vuosina, ja erityisesti pienituloiset sekä maatilalliset ovat hirveässä
+            pinteessä. Korona toi omat haasteensa ja tämän hetkinen taloustilanne pahentaa yksilön asemaa koko ajan.
             <br><br>
-            Työssäkäynti tulee saada Lapissa mahdollisimman helpoksi. Pienten kuntien tilanne on muuttotappioiden vuoksi tällä hetkellä todella vaikea, eikä työskentelyä pienissä kunnissa tulisi ainakaan vaikeuttaa esimerkiksi polttoaineen nykyisellä verotuksella. Näen tärkeäksi myös turvata kaikkiin Lapin kuntiin monimuotoisia opiskelumahdollisuuksia. Nykyteknologia ja koulutuslait mahdollistavat todella erilaisia oppimismahdollisuuksia nuorille, joita kuntien ja koulutuskuntayhtymien sekä yritysten tulee pyrkiä hyödyntämään. Opiskelu on mahdollista nykyisin niin etänä, oppisopimuksen kuin koulutussopimuksen kautta. Näiden monimuotoisten palveluiden avulla saadaan myös nuoria jäämään pienempiin kuntiin opiskelemaan.
+            Työssäkäynti tulee saada Lapissa mahdollisimman helpoksi. Pienten kuntien tilanne on muuttotappioiden vuoksi
+            tällä hetkellä todella vaikea, eikä työskentelyä pienissä kunnissa tulisi ainakaan vaikeuttaa esimerkiksi
+            polttoaineen nykyisellä verotuksella. Näen tärkeäksi myös turvata kaikkiin Lapin kuntiin monimuotoisia
+            opiskelumahdollisuuksia. Nykyteknologia ja koulutuslait mahdollistavat todella erilaisia
+            oppimismahdollisuuksia nuorille, joita kuntien ja koulutuskuntayhtymien sekä yritysten tulee pyrkiä
+            hyödyntämään. Opiskelu on mahdollista nykyisin niin etänä, oppisopimuksen kuin koulutussopimuksen kautta.
+            Näiden monimuotoisten palveluiden avulla saadaan myös nuoria jäämään pienempiin kuntiin opiskelemaan.
             <br><br>
-            Koko Lapin asuttuna ja elinvoimaisena pitäminen onkin mielestäni yksi tärkeimmistä edunvalvonta-asioista. Yrittäjyyttä tulisi pystyä tukemaan esimerkiksi aloittavien yrittäjien verohelpotuksilla. Aloittelevasta yrittäjästä voi vuosien aikana tulla suuri työllistäjä. Erityisen tärkeänä näen maatalousyrittäjien tukemisen, ennen kuin suomalainen maatalous kaatuu. Mielestäni diesel-ajoneuvojen käyttövoimavero tulisi poistaa, tällä tavalla tuetaan myös toimivan ja nykyaikaisen kaluston hankkimista. Maatalousyrittäjille tulisi saada tukea biokaasu- tai biodieselisin tuottamiseen.
+            Koko Lapin asuttuna ja elinvoimaisena pitäminen onkin mielestäni yksi tärkeimmistä edunvalvonta-asioista.
+            Yrittäjyyttä tulisi pystyä tukemaan esimerkiksi aloittavien yrittäjien verohelpotuksilla. Aloittelevasta
+            yrittäjästä voi vuosien aikana tulla suuri työllistäjä. Erityisen tärkeänä näen maatalousyrittäjien
+            tukemisen, ennen kuin suomalainen maatalous kaatuu. Mielestäni diesel-ajoneuvojen käyttövoimavero tulisi
+            poistaa, tällä tavalla tuetaan myös toimivan ja nykyaikaisen kaluston hankkimista. Maatalousyrittäjille
+            tulisi saada tukea biokaasu- tai biodieselisin tuottamiseen.
             <br><br>
-            Minulle saa tulla koska tahansa puhumaan! Kuuntelen mielelläni mitä ajatuksia lappilaisilla on ja vien niitä asioita sitten Arkadian mäelle, jos sinne pääsen.</p><h2 id="center" style="color:rgb(255, 99, 35);">Lapin hyvinvointi on minulle pääasia!</h2>
-        
+            Minulle saa tulla koska tahansa puhumaan! Kuuntelen mielelläni mitä ajatuksia lappilaisilla on ja vien niitä
+            asioita sitten Arkadian mäelle, jos sinne pääsen.
+        </p>
+        <h2 id="center" style="color:rgb(255, 99, 35);">Lapin hyvinvointi on minulle pääasia!</h2>
+
 
     </div>
     <div class="row">

@@ -52,7 +52,24 @@ body {
 }
 
 .fb-page {
-    display:block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.countdown {
+    text-align: center;
+    background-color: red;
+    width: 100%;
+    position: fixed;
+    top: 20;
+    z-index: 1;
+}
+
+.countdown h3 {
+    display: inline-block;
+}
+
+#laskuri {
+    display: inline-block;
 }
